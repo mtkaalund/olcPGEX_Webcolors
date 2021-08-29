@@ -9,6 +9,7 @@ namespace olc
     namespace Pastel
     {
         static const Pixel
+		// Taken from http://color-hex.com/color-palette/5361
 		RED(0xFF,0xB3,0xBA),
 		ORANGE(0xFF,0xDF,0xBA),
 		YELLOW(0xFF,0xFF,0xBA),
