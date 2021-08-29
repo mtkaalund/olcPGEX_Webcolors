@@ -3,10 +3,20 @@
 
 #include "olcPixelGameEngine.h"
 
-// Taken from https://en.wikipedia.org/wiki/Web_colors
 
 namespace olc
 {
+    namespace Pastel
+    {
+        static const Pixel
+		RED(0xFF,0xB3,0xBA),
+		ORANGE(0xFF,0xDF,0xBA),
+		YELLOW(0xFF,0xFF,0xBA),
+		GREEN(0xBA,0xFF,0xC9),
+		BLUE(0xBA,0xE1,0xFF);
+    }
+
+    // Taken from https://en.wikipedia.org/wiki/Web_colors
     namespace Webcolors
     {
         static const Pixel
